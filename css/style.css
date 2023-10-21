@@ -136,6 +136,12 @@ html{
     .home-img{
         margin-left: 1rem;
     }  
+    .about_bt a {
+        font-size: 0.9rem;
+    }
+    .callnow_bt a {
+        font-size: 0.9rem;
+    }
 }
 @media only screen and (max-width:376px) {
     .about_bt a {
@@ -206,9 +212,41 @@ html{
     font-weight: bolder;
     text-transform: uppercase;
 }
+.coffee-sec-2 .item p{
+    font-size: 0.9rem;
+}
+@media only screen and (max-width: 1024px) {
+    .coffee-title{
+        font-size: 3rem;
+    }
+    .coffee-sec-2 .item h3{
+        font-size: 1.5rem;
+        padding-top: 14px;
+    }
+    .coffee-sec-2 .item p{
+        font-size: 0.8rem;
+    }
+}
+@media only screen and (max-width: 769px) {
+    .coffee-title{
+        font-size: 2rem;
+    }
+    .coffee-sec-2 .item h3{
+        font-size: 1.2rem;
+    }
+    .coffee-sec-2 .item p{
+        font-size: 0.7rem;
+    }
+}
 @media only screen and (max-width: 426px) {
     .coffee-title{
         font-size: 2rem;
+    }
+    .coffee-sec-2 .item h3{
+        font-size: 1.6rem;
+    }
+    .coffee-sec-2 .item p{
+        font-size: 0.9rem;
     }
 }
 /*------------------------------about section---------------------*/
@@ -238,10 +276,13 @@ html{
     .about_section_2{
         margin-top: 6rem;
     }
+    .about-title{
+        font-size: 3rem;
+    }
     .about_title_box {
-        width: 500px;
+        width: 400px;
         padding: 5px 10px 20px 10px;
-        top: 1430px;
+        top: 1410px;
     }
     .about_text{
         font-size: 0.9rem;
@@ -252,15 +293,19 @@ html{
     }  
 }
 @media only screen and (max-width: 769px) {
+    .about-title{
+        font-size: 2rem;
+    }
     .about_title_box {
-        width: 300px;
-        top: 1430px;
+        width: 270px;
+        top: 1330px;
+        padding: 40px 20px 30px 20px;
     }
     .about_text{
         font-size: 0.7rem;
     }
     .about_title_1{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 }
 @media only screen and (max-width: 426px) {
@@ -269,7 +314,7 @@ html{
     }
     .about_title_box {
         width: 350px;
-        top: 1945px;
+        top: 1980px;
         margin-left: 1.5rem;
         padding: 40px 20px 30px 20px;
     }
@@ -287,7 +332,7 @@ html{
 @media only screen and (max-width: 376px) {
     .about_title_box {
         width: 300px;
-        top: 1845px;
+        top: 1932px;
     }
     .about_title_1{
         font-size: 1.5rem;
@@ -300,7 +345,7 @@ html{
 @media only screen and (max-width: 321px) {
     .about_title_box {
         width: 250px;
-        top: 1660px;
+        top: 1900px;
     }
     .about_title_1{
         font-size: 1.5rem;
@@ -347,7 +392,8 @@ html{
         margin-top: 0;
     }
     .customer h2{
-        margin-left: -19rem; 
+        margin-left: -19rem;
+        margin-top: 1rem; 
         
     }
     .customer p{
@@ -397,7 +443,7 @@ html{
 }
 @media only screen and (max-width: 321px) {
     .client-title{
-        font-size: 1.5rem
+        font-size: 2rem
     }
     .client{
         margin-top: 25rem;  
@@ -435,16 +481,25 @@ html{
 }
 
 @media only screen and (max-width: 1024px) {
+    .blog-title{
+        font-size: 3rem;
+    }
     .bolg-sec-2 .card{
         width: 27rem;
+    }
+    .bolg-sec-2 .card-body h2{
+        font-size: 1.5rem;
     }
 }
 @media only screen and (max-width: 769px) {
     .blog-title{
-        font-size: 3rem
+        font-size: 2rem
     }
     .bolg-sec-2 .card{
         width: 21rem;
+    }
+    .bolg-sec-2 .card-body h2{
+        font-size: 1.3rem;
     }
 }
 @media only screen and (max-width: 426px) {
@@ -454,6 +509,10 @@ html{
     .bolg-sec-2 .card{
         margin-left: 2rem;
     }
+    .bolg-sec-2 .mr-blog .read-btn{
+        padding-bottom: 15px;
+    }
+    
 }
 @media only screen and (max-width: 376px) {
     .blog-title{
@@ -465,7 +524,7 @@ html{
 }
 @media only screen and (max-width: 321px) {
     .blog-title{
-        font-size: 2.3rem
+        font-size: 2rem
     }
     .bolg-sec-2 .card{
         margin-left: 0;
@@ -494,13 +553,16 @@ html{
 }
 
 @media only screen and (max-width: 1024px) {
+    .contact-title{
+        font-size: 3rem;
+    }
     .contact-sec-2 .mr-form{
         margin-left: 11rem;
     }
 }
 @media only screen and (max-width: 769px) {
     .contact-title{
-        font-size: 2.9rem;
+        font-size: 2rem;
     }
     .contact-sec-2 .mr-form{
         margin-left: 8rem;
@@ -522,7 +584,7 @@ html{
 }
 @media only screen and (max-width: 321px) {
     .contact-title{
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
     .contact-sec-2 .mr-form{
         margin-left: 0;
