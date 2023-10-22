@@ -332,6 +332,18 @@ html{
         height: 90%;
     }
 }
+@media only screen and (max-width: 391px) {
+    .about_title_1{
+        font-size: 1.5rem;
+    }
+    .about_title_box {
+        width: 320px;
+        top: 1940px;
+        margin-left: 1.4rem;
+        padding: 40px 20px 30px 20px;
+    }
+}
+
 @media only screen and (max-width: 376px) {
     .about_title_box {
         width: 300px;
@@ -438,12 +450,19 @@ html{
         justify-content: center;  
     }
     .customer p{
-        margin-left: 0rem;  
+        margin-left: 1.7rem;  
         display: flex;
         align-items: center;
         justify-content: center;   
     }
 }
+@media only screen and (max-width: 391px) {
+    .customer p{
+        font-size: 0.7rem;
+        margin-left: 1.7rem;   
+    }
+}
+
 @media only screen and (max-width: 321px) {
     .client-title{
         font-size: 2rem
@@ -517,6 +536,12 @@ html{
     }
     
 }
+@media only screen and (max-width: 391px) {
+    .bolg-sec-2 .card{
+        margin-left: 0.9rem;
+    }
+}
+
 @media only screen and (max-width: 376px) {
     .blog-title{
         font-size: 2.6rem
@@ -580,6 +605,13 @@ html{
         width: 90%;
     }
 }
+@media only screen and (max-width: 391px) {
+    .contact-sec-2 .mr-form{
+        margin-left: 1.2rem;
+        width: 90%;
+    }
+}
+
 @media only screen and (max-width: 376px) {
     .contact-title{
         font-size: 2.5rem;
